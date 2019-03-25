@@ -61,7 +61,9 @@ background: radial-gradient(
   rgba(0,0,0,0.6),
   rgba(0,0,0,0.6)
   ),
-   url('images/blur4k.png');
+   /* url('images/blur4k.png');
+   */
+   url('https://source.unsplash.com/random'); 
    background-size: cover;
    background-attachment: fixed;
    background-position: center;
