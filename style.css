@@ -115,7 +115,7 @@ nav ul {
   grid-gap: 1em;
   grid-auto-flow: dense;
   align-items: start;
-  margin: 0%;
+  margin: 2%;
 }
 
 .card-container .ux-card {
