@@ -58,8 +58,8 @@ small, .font_small {font-size: 0.8em;}
 
 .background-image {
 background: radial-gradient(
-  rgba(0,0,0,0.6),
-  rgba(0,0,0,0.6)
+  rgba(0,0,0,0.75),
+  rgba(0,0,0,0.75)
   ),
    /* url('images/blur4k.png');
    */
@@ -123,8 +123,8 @@ nav ul {
 
 .card {
   padding: 30px;
-  background: rgba(0,0,0,0.2);
-  border-radius: 15px;
+  background: rgba(0,0,0,0.4);
+  border-radius: 12px;
 }
 
 .card h3 {
