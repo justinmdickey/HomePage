@@ -24,7 +24,7 @@ html {font-size: 1em;}
 
 body {
   background-color: white;
-  margin: 2%;
+  margin: 0%;
   font-family: 'Hasklig Regular', monospace;
   font-weight: 600;
   line-height: 1.2;
@@ -115,6 +115,7 @@ nav ul {
   grid-gap: 1em;
   grid-auto-flow: dense;
   align-items: start;
+  margin: 0%;
 }
 
 .card-container .ux-card {
