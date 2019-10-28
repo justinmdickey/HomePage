@@ -40,7 +40,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  margin: 50px;;
+  margin: 2%;
   font-size: 2.441em;
 }
 
@@ -139,7 +139,7 @@ nav ul {
 
 
 footer {
-    margin: 50px;
+    margin: 2%;
 }
 
 /* CARD STYLES
