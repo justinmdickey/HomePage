@@ -59,7 +59,7 @@ small, .font_small {font-size: 0.8em;}
 .background-image {
 background: radial-gradient( rgba(0,0,0,0.75), 
     rgba(23,147,209,0.45) ), 
-    url('https://source.unsplash.com/3840x2160/?mountain+blue')
+    url('https://source.unsplash.com/3840x2160/?mountain+blue');
    background-size: cover;
    background-attachment: fixed;
    background-position: center;
