@@ -68,13 +68,14 @@ background: radial-gradient( rgba(10,10,10,0.7),
 h1,h2,h3,h4,h5 {
   color: #fefefe;
   text-shadow: 3px 1px 10px#040;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'SF Mono', monospace;
   word-wrap: break-word;
 }
 
 body, p, a {
-  font-family: 'Hasklig', monospace;
+  font-family: 'SF Mono', monospace;
   font-weight: 400;
+  line-height: 1.7;
 }
 
 h1.title {
