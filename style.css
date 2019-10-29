@@ -124,6 +124,7 @@ nav ul {
   padding: 30px;
   background: rgba(0,0,0,0.7);
   border-radius: 12px;
+  blur-background: 12px;
 }
 
 .card h3 {
