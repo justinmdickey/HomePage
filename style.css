@@ -57,8 +57,8 @@ small, .font_small {font-size: 0.8em;}
 ---------------------------*/
 
 .background-image {
-background: radial-gradient( rgba(50,50,150,0.45), 
-    rgba(0,0,0,0.35) ), 
+background: radial-gradient( rgba(50,120,50,0.45), 
+    rgba(0,0,0,0.6) ), 
     url('https://source.unsplash.com/3840x2160/?forest+dark');
    background-size: cover;
    background-attachment: fixed;
