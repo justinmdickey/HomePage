@@ -95,7 +95,7 @@ a {
 }
 
 a:hover {
-  color: #1e1e1e;
+  text-shadow: 3px 3px 3px aliceblue;
 }
 
 nav ul {
