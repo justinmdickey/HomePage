@@ -65,7 +65,7 @@ small, .font_small {font-size: 0.8em;}
 
 h1,h2,h3,h4,h5 {
   color: #fefefe;
-  text-shadow: 3px 1px 10px#040;
+  text-shadow: 3px 1px 10px#efe;
   font-family: 'SF Mono', monospace;
   word-wrap: break-word;
 }
