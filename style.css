@@ -25,7 +25,7 @@ html {font-size: 1em;}
 body {
   background-color: white;
   margin: 0%;
-  font-family: 'SF Mono Medium', monospace;
+  font-family: 'IBM Plex Mono Medium', monospace;
   font-weight: 600;
   line-height: 1.2;
   color: #e3e3e3;
@@ -66,19 +66,22 @@ small, .font_small {font-size: 0.8em;}
 h1,h2,h3,h4,h5 {
   color: #fefefe;
   text-shadow: 3px 1px 5px#333;
-  font-family: 'SF Mono', monospace;
+  font-family: 'IBM Plex Mono', monospace;
   word-wrap: break-word;
 }
 
 body, p, a {
-  font-family: 'SF Mono', monospace;
+  font-family: 'IBM Plex Mono', monospace;
   font-weight: 600;
   line-height: 1.7;
 }
 
 h1.title {
-  display: inline;
-  font-weight: 600;
+  font-weight: 900;
+  font-family: SF Mono;
+  font-size: 10em;
+  line-height: 0.75;
+  margin: -10px 0 0 -6px;
 }
 
 h3 {
@@ -121,9 +124,11 @@ nav ul {
 
 .card {
   padding: 30px;
-  background: rgba(0,0,0,0.5);
+  height: 82%;
+  background: rgba(0,0,0,0.65);
   border-radius: 12px;
   backdrop-filter: blur(5px);
+  box-shadow: 3px 3px 8px #111;
 }
 
 .card h3 {
