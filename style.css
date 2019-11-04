@@ -84,6 +84,10 @@ h1.title {
   margin: -10px 0 0 -6px;
 }
 
+h1.ending {
+  margin: auto;
+}
+
 h3 {
   font-weight: 900;
   color: #fefefe;
