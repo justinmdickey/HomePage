@@ -78,9 +78,9 @@ body, p, a {
 
 h1.title {
   font-weight: 900;
-  font-family: SF Mono;
+  font-family: 'Asap', sans-serif;
   text-align: center;
-  font-size: 10em;
+  font-size: 10vw;
   line-height: 0.75;
   margin: 50px 0;
 }
