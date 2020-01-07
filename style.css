@@ -79,9 +79,10 @@ body, p, a {
 h1.title {
   font-weight: 900;
   font-family: SF Mono;
+  text-align: center;
   font-size: 10em;
   line-height: 0.75;
-  margin: -10px 0 0 -6px;
+  margin: 50px 0;
 }
 
 h1.ending {
