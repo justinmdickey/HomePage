@@ -119,7 +119,7 @@ nav ul {
   grid-auto-rows: repeat(auto-fit, minmax(100px, 1fr));
   grid-gap: 1em;
   grid-auto-flow: dense;
-  align-items: start;
+  align-items: center;
   margin: 2%;
 }
 
