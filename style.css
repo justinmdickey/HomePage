@@ -120,13 +120,8 @@ nav ul {
   grid-auto-rows: repeat(auto-fit, minmax(150px, 1fr));
   grid-gap: 1em;
   grid-auto-flow: dense;
-<<<<<<< HEAD
   align-items: center;
-  margin: 2%;
-=======
-  align-items: start;
   margin: 2% 5%;
->>>>>>> c00a656dbebdd30ae3bec1651b46ceea0ddf5bf8
 }
 
 .card-container .ux-card {
