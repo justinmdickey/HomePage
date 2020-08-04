@@ -1,6 +1,7 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
 
@@ -14,7 +15,7 @@
   <link rel="script" type="script" href="scripts.js">
   <link rel="stylesheet" type="text/css" href="column-classes.css">
   <link rel="stylesheet" type="text/css" href="style.css">
-  
+
   <script>
     function startTime() {
       var today = new Date();
@@ -24,14 +25,14 @@
       m = checkTime(m);
       s = checkTime(s);
       document.getElementById('txt').innerHTML =
-      h + ":" + m + ":" + s;
+        h + ":" + m + ":" + s;
       var t = setTimeout(startTime, 500);
     }
     function checkTime(i) {
-      if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+      if (i < 10) { i = "0" + i };  // add zero in front of numbers < 10
       return i;
     }
-    </script>
+  </script>
 
 </head>
 
@@ -39,22 +40,23 @@
 </header>
 
 <body class="background-image" onload="startTime()">
-  
+
   <div id="txt"></div>
 
   <div class="card-container">
 
     <div class="card grid">
-        <h3>Work</h3>
-        <ul>
-          <li><a target="_blank" href="https://dashboard.e-gineering.com">Dashboard</a></li>
-          <li><a target="_blank" href="https://e-gineering.atlassian.net/secure/RapidBoard.jspa?rapidView=46">Jira Tasks</a></li>
-          <li><a target="_blank" href="http://www.e-gineering.com/">E-gineering</a></li>
-          <li><a target="_blank" href="http://egwp.staging.wpengine.com/">EG Stage</a></li>
-          <li><a target="_blank" href="https://trello.com/">Trello</a></li>
-          <li><a target="_blank" href="https://e-gineering.sharefile.com/dashboard">ShareFile</a></li>
-          <li><a target="_blank" href="https://wsiee.prismhr.com/wsi">Worksmart Portal</a></li>
-        </ul>
+      <h3>Work</h3>
+      <ul>
+        <li><a target="_blank" href="https://dashboard.e-gineering.com">Dashboard</a></li>
+        <li><a target="_blank" href="https://e-gineering.atlassian.net/secure/RapidBoard.jspa?rapidView=46">Jira
+            Tasks</a></li>
+        <li><a target="_blank" href="http://www.e-gineering.com/">E-gineering</a></li>
+        <li><a target="_blank" href="http://egwp.staging.wpengine.com/">EG Stage</a></li>
+        <li><a target="_blank" href="https://trello.com/">Trello</a></li>
+        <li><a target="_blank" href="https://e-gineering.sharefile.com/dashboard">ShareFile</a></li>
+        <li><a target="_blank" href="https://wsiee.prismhr.com/wsi">Worksmart Portal</a></li>
+      </ul>
     </div>
 
     <div class="card grid">
@@ -63,25 +65,28 @@
         <li><a target="_blank" href="https://reddit.com">Reddit</a></li>
         <li><a target="_blank" href="https://github.com">GitHub</a></li>
         <li><a target="_blank" href="https://gmail.com">Gmail</a></li>
+        <li><a target="_blank" href="https://outlook.office.com">Outlook</a></li>
         <li><a target="_blank" href="https://www.chase.com">Chase</a></li>
+        <li><a target="_blank" href="https://www.youtube.com">YouTube</a></li>
       </ul>
     </div>
 
     <div class="card grid">
-        <h3>Design</h3>
-        <ul>
-          <li><a target="_blank" href="https://www.behance.net/search">Behance</a></li>
-          <li><a target="_blank" href="http://thinkingwithtype.com">Thinking With Type</a></li>
-          <li><a target="_blank" href="https://coolors.co/app/">Coolors</a></li>
-          <li><a target="_blank" href="https://unsplash.com/">Unsplash</a></li>
-          <li><a target="_blank" href="http://type-scale.com/">TypeScale</a></li>
-          <li><a target="_blank" href="https://material.io/">Material Design</a></li>
-          <li><a target="_blank" href="https://autoprefixer.github.io">Auto Pre-Fixer</a></li>
-          <li><a target="_blank" href="https://www.youtube.com/channel/UC7TizprGknbDalbHplROtag">Layout Land CSS</a></li>
-        </ul>
+      <h3>Design</h3>
+      <ul>
+        <li><a target="_blank" href="https://www.behance.net/search">Behance</a></li>
+        <li><a target="_blank" href="http://thinkingwithtype.com">Thinking With Type</a></li>
+        <li><a target="_blank" href="https://coolors.co/app/">Coolors</a></li>
+        <li><a target="_blank" href="https://unsplash.com/">Unsplash</a></li>
+        <li><a target="_blank" href="http://type-scale.com/">TypeScale</a></li>
+        <li><a target="_blank" href="https://material.io/">Material Design</a></li>
+        <li><a target="_blank" href="https://autoprefixer.github.io">Auto Pre-Fixer</a></li>
+        <li><a target="_blank" href="https://www.youtube.com/channel/UC7TizprGknbDalbHplROtag">Layout Land CSS</a></li>
+      </ul>
     </div>
 
   </div>
 
-  </body>
+</body>
+
 </html>
