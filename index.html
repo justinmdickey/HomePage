@@ -19,13 +19,14 @@
   <script>
     function startTime() {
       var today = new Date();
-      var h = today.getHours() + 24) % 12 || 12;
+      var h = today.getHours();
       var m = today.getMinutes();
       var s = today.getSeconds();
+      var hh = h + 24) % 12 || 12;
       m = checkTime(m);
       s = checkTime(s);
       document.getElementById('txt').innerHTML =
-        h + ":" + m + ":" + s;
+        hh + ":" + m + ":" + s;
       var t = setTimeout(startTime, 500);
     }
     function checkTime(i) {
