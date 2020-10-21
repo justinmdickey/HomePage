@@ -152,6 +152,19 @@ nav ul {
   font-family: Hasklig;
 }
 
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400);
+body {
+  background-color: #222;
+}
+#currentTime {
+  font-size: 10em;
+  text-align: center;
+  font-family: 'Oswald';
+  font-weight: 300;
+  color: #f05b19;
+  margin: 100px auto;
+}
+
 footer {
     margin: 2%;
 }
