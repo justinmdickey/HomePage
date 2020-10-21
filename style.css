@@ -152,7 +152,7 @@ nav ul {
   font-family: Hasklig;
 }
 
-#weatherWidget #weatherWidgetInner {
+body#weatherWidget#weatherWidgetInner {
     background-color: transparent;
 }
 
