@@ -142,6 +142,9 @@ nav ul {
 
 .card h3 {
   margin-top: 1%;
+  text-align: center;
+  font-weight: 900;
+  font-family: Open Sans;
 }
 
 .bible-verse, .bible-verse script {
