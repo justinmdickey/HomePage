@@ -152,6 +152,10 @@ nav ul {
   font-family: Hasklig;
 }
 
+body #weatherWidgetInner {
+    background-color: transparent;
+}
+
 
 footer {
     margin: 2%;
