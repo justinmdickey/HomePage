@@ -14,12 +14,12 @@
   <link rel="shortcut icon" href="faves/favicon.ico" type="image/x-icon">
   <link rel="script" type="script" href="scripts.js">
   <link rel="stylesheet" type="text/css" href="column-classes.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
-
+  <link rel="stylesheet" type="text/css" href="style.css">  
+  
   <script>
     function startTime() {
       var today = new Date();
-      var h = today.getHours();
+      var h = today.getHours() + 24) % 12 || 12;
       var m = today.getMinutes();
       var s = today.getSeconds();
       m = checkTime(m);
