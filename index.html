@@ -22,11 +22,10 @@
       var h = today.getHours();
       var m = today.getMinutes();
       var s = today.getSeconds();
-      var hh = h + 24) % 12 || 12;
       m = checkTime(m);
       s = checkTime(s);
       document.getElementById('txt').innerHTML =
-        hh + ":" + m + ":" + s;
+        h + ":" + m + ":" + s;
       var t = setTimeout(startTime, 500);
     }
     function checkTime(i) {
@@ -42,10 +41,13 @@
 
 <body class="background-image" onload="startTime()">
 
-  <div id="txt"></div>
-
   <div class="card-container">
 
+    <div class="card grid">
+      <h3>Time</h3>
+      <div id="txt"></div>
+    </div>
+    
     <div class="card grid">
       <h3>Work</h3>
       <ul>
