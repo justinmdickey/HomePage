@@ -134,7 +134,7 @@ nav ul {
 .card {
   padding: 25px;
   height: 82%;
-  background: rgba(0,50,75,0.6);
+  background: rgba(0,0,0,0.6);
   border-radius: 12px;
   backdrop-filter: blur(3px);
   box-shadow: 3px 3px 8px #000;
