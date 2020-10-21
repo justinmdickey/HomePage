@@ -147,6 +147,10 @@ nav ul {
   font-family: Open Sans;
 }
 
+.card-weather {
+    background-color: rgba(0, 200, 255, 0.5);
+}
+
 .bible-verse, .bible-verse script {
   color: lightblue;
   font-family: Hasklig;
