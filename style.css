@@ -68,19 +68,19 @@ small, .font_small {font-size: 0.8em;}
 h1,h2,h3,h4,h5 {
   color: #fefefe;
   text-shadow: 3px 1px 5px#333;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'SF Mono', monospace;
   word-wrap: break-word;
 }
 
 body, p, a {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: 'SF Mono', monospace;
   font-weight: 600;
   line-height: 1.7;
 }
 
 h1.title, #txt {
   font-weight: 900;
-  font-family: 'Asap', sans-serif;
+  font-family: 'SF Mono', monospace;
   text-align: center;
   font-size: 7vh;
   line-height: 0.75;
