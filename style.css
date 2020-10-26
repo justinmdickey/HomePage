@@ -144,7 +144,7 @@ nav ul {
   margin-top: 1%;
   text-align: center;
   font-weight: 900;
-  font-family: Open Sans;
+  font-family: 'SF Mono', monospace;
 }
 
 .bible-verse, .bible-verse script {
