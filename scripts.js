@@ -19,7 +19,7 @@ window.onload = function() {
     if(TwentyFourHour < 12) {
        mid = 'am';
     }     
-  document.getElementById('currentTime').innerHTML =     hour+':'+min+':'+sec +' '+mid ;
+  document.getElementById('currentTime').innerHTML =     hour+':'+min+;
     setTimeout(clock, 1000);
     }
 }
