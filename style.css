@@ -58,7 +58,7 @@ small, .font_small {font-size: 0.8em;}
 ---------------------------*/
 
 .background-image {
-   background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url('https://source.unsplash.com/3840x2160/?spiderman');
+   background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url('https://source.unsplash.com/3840x2160/?plants,dark');
    background-size: cover;
    background-attachment: fixed;
    background-position: center;
