@@ -80,7 +80,7 @@ body, p, a {
 
 h1.title, #txt {
   font-weight: 900;
-  font-family: 'SF Mono', monospace;
+  font-family: 'San Francisco Display';
   text-align: center;
   font-size: 7vh;
   line-height: 0.75;
@@ -99,7 +99,7 @@ h3 {
 
 a {
   color: #e3e3e3;
-  font-size: 1em;
+  font-size: 1.2em;
   text-decoration: none;
 }
 
