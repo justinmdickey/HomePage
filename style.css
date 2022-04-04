@@ -82,7 +82,7 @@ h1.title, #txt {
   font-weight: 900;
   font-family: 'San Francisco Display', sans-serif;
   text-align: center;
-  font-size: 7vh;
+  font-size: 12vh;
   line-height: 0.75;
   padding: 50px 0px;
 }
@@ -110,6 +110,10 @@ a:hover {
 
 nav ul {
   display: inline;
+}
+
+ul li:before {
+    content: "• ";
 }
 
 
