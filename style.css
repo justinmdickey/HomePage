@@ -25,7 +25,7 @@ html {font-size: 1em;}
 body {
   background-color: white;
   margin: 0%;
-  font-family: 'IBM Plex Mono Medium', monospace;
+  font-family: 'San Francisco Display', Sans-Serif;
   font-weight: 600;
   line-height: 1.2;
   color: #e3e3e3;
@@ -68,19 +68,19 @@ small, .font_small {font-size: 0.8em;}
 h1,h2,h3,h4,h5 {
   color: #fefefe;
   text-shadow: 3px 1px 5px#333;
-  font-family: 'SF Mono', monospace;
+  font-family: 'San Francisco Display', sans-serif;
   word-wrap: break-word;
 }
 
 body, p, a {
-  font-family: 'SF Mono', monospace;
+  font-family: 'San Francisco Display', sans-serif;
   font-weight: 900;
   line-height: 1.7;
 }
 
 h1.title, #txt {
   font-weight: 900;
-  font-family: 'San Francisco Display';
+  font-family: 'San Francisco Display', sans-serif;
   text-align: center;
   font-size: 7vh;
   line-height: 0.75;
@@ -144,7 +144,7 @@ nav ul {
   margin-top: 1%;
   text-align: center;
   font-weight: 900;
-  font-family: 'SF Mono', monospace;
+  font-family: 'San Francisco Display', sans-serif;
 }
 
 .bible-verse, .bible-verse script {
