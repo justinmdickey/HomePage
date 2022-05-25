@@ -137,7 +137,7 @@ ul li:before {
 
 .card {
   padding: 25px;
-  height: 82%;
+  height: 85%;
   background: rgba(0,0,0,0.6);
   border-radius: 12px;
   backdrop-filter: blur(3px);
