@@ -1,7 +1,7 @@
 // weather.js
 const apiKey = '2248cd52189f2e12c93c5f17a33cf2f51';  // Updated API Key
 const city = 'Greenfield,IN';
-const url = `https://api.openweathermap.org/data/2.5/weather?q={Greenfield,IN}&appid=248cd52189f2e12c93c5f17a33cf2f51&units=imperial`;
+const url = `https://api.openweathermap.org/data/2.5/weather?q=Greenfield,IN&appid=248cd52189f2e12c93c5f17a33cf2f51&units=imperial`;
 
 async function getWeather() {
   try {
