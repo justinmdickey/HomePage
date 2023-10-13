@@ -1,94 +1,133 @@
 <!doctype html>
+
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
+
   <title>My Bookmarks</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Asap:400,500,600,700|IBM+Plex+Mono:300,400,700&display=swap">
-  <link rel="stylesheet" href="style.css,column-classes.css">
-  <script src="scripts.js,weather.js"></script>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link href="https://fonts.googleapis.com/css?family=Asap:400,500,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,400,700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="faves/favicon.ico" type="image/x-icon">
+  <link rel="script" type="script" href="scripts.js">
+  <link rel="stylesheet" type="text/css" href="column-classes.css">
+  <link rel="stylesheet" type="text/css" href="style.css">  
+  
   <script>
-    const startTime = () => {
-      let today = new Date(), h = today.getHours(), m = today.getMinutes();
-      document.getElementById('txt').textContent = `${h}:${m < 10 ? '0' : ''}${m}`;
-      setTimeout(startTime, 500);
+    function startTime() {
+      var today = new Date();
+      var h = today.getHours();
+      var m = today.getMinutes();
+      var s = today.getSeconds();
+      m = checkTime(m);
+      s = checkTime(s);
+      document.getElementById('txt').innerHTML =
+        h + ":" + m;
+      var t = setTimeout(startTime, 500);
+    }
+    function checkTime(i) {
+      if (i < 10) { i = "0" + i };  // add zero in front of numbers < 10
+      return i;
     }
   </script>
+
 </head>
+
 <body class="background-image" onload="startTime()">
-  <header></header>
+
+  <header>
+  </header>
+  
   <div class="card-container">
-    <div class="card-container">
 
-      <div class="card grid">
-        <h3>Time</h3>
-        <div id=txt></div>
-      </div>
-
-      <div class="card grid">
-        <h3>Work</h3>
-        <ul>
-          <li><a target="_blank" href="https://dashboard.e-gineering.com">Dashboard</a></li>
-          <li><a target="_blank" href="http://www.e-gineering.com/">E-gineering</a></li>
-          <li><a target="_blank" href="http://www.e-gineering.com/wp-admin">EG Site Dashboard</a></li>
-          <li><a target="_blank" href="https://egwpstaging.wpengine.com/">EG Stage</a></li>
-          <li><a target="_blank" href="https://e-gineering.atlassian.net/servicedesk/customer/portals">JSM Portal</a></li>
-          <li><a target="_blank" href="https://e-gineering.atlassian.net/wiki/home">Confluence</a></li>
-          <li><a target="_blank" href="https://e-gineering.sharefile.com/dashboard">ShareFile</a></li>
-          <li><a target="_blank" href="https://wsiee.prismhr.com/wsi">Worksmart Portal</a></li>
-          <li><a target="_blank" href="https://u.eginc.io/">EG URL Shortener</a></li>
-        </ul>
-      </div>
-      
-      <div class="card grid">
-        <h3>Sys Admin</h3>
-        <ul>
-          <li><a target="_blank" href="https://e-gineering.atlassian.net/jira/servicedesk/projects/EGSD/">EG Service Desk</a></li>
-          <li><a target="_blank" href="https://e-gineering.atlassian.net/jira/software/c/projects/EGSYS/boards/215">EGSYS Board</a></li>
-          <li><a target="_blank" href="https://e-gineering.slack.com/admin">Slack Admin</a></li>
-          <li><a target="_blank" href="https://admin.atlassian.com">Atlassian Admin</a></li>
-          <li><a target="_blank" href="https://portal.azure.com/">Azure Portal</a></li>
-          <li><a target="_blank" href="https://admin.microsoft.com/AdminPortal/Home">Microsoft Office Portal</a></li>
-          <li><a target="_blank" href="https://admin.exchange.microsoft.com/#/">Exchange Admin Portal</a></li>
-          <li><a target="_blank" href="https://dooraccess.e-gineering.com:8080/#/login">Door Access</a></li>
-          <li><a target="_blank" href="https://www.ng1.angusanywhere.com/Tenant/JLL/JLL/Default.aspx">JLL Requests</a></li>
-          <li><a target="_blank" href="https://docs.google.com/spreadsheets/d/1_-g8cdtYRNBKODkopYrviepSSPuksaxMFamxk_QSzrs/edit#gid=0">E-gineer of the Day</a></li>
-          <li><a target="_blank" href="https://e-gineering.monday.com/my_work">Monday</a></li>
-        </ul>
-      </div>
-  
-      <div class="card grid">
-        <h3>General</h3>
-        <ul>
-          <li><a target="_blank" href="https://myaccount.caliberhomeloans.com/dashboard">Caliber Home Loans</a></li>
-          <li><a target="_blank" href="https://reddit.com">Reddit</a></li>
-          <li><a target="_blank" href="https://github.com">GitHub</a></li>
-          <li><a target="_blank" href="https://gmail.com">Gmail</a></li>
-          <li><a target="_blank" href="https://outlook.office.com">Outlook</a></li>
-          <li><a target="_blank" href="https://www.chase.com">Chase</a></li>
-          <li><a target="_blank" href="https://www.youtube.com">YouTube</a></li>
-          <li><a target="_blank" href="https://smile.amazon.com">Amazon</a></li>
-          
-        </ul>
-      </div>
-  
-      <div class="card grid">
-        <h3>Design</h3>
-        <ul>
-          <li><a target="_blank" href="https://www.behance.net/search">Behance</a></li>
-          <li><a target="_blank" href="http://thinkingwithtype.com">Thinking With Type</a></li>
-          <li><a target="_blank" href="https://coolors.co/app/">Coolors</a></li>
-          <li><a target="_blank" href="https://unsplash.com/">Unsplash</a></li>
-          <li><a target="_blank" href="http://type-scale.com/">TypeScale</a></li>
-          <li><a target="_blank" href="https://material.io/">Material Design</a></li>
-          <li><a target="_blank" href="https://autoprefixer.github.io">Auto Pre-Fixer</a></li>
-          <li><a target="_blank" href="https://www.youtube.com/channel/UC7TizprGknbDalbHplROtag">Layout Land CSS</a></li>
-        </ul>
-      </div>
     <div class="card grid">
-      <h3>Weather</h3>
-      <p id="temperature"></p>
-      <p id="conditions"></p>
+      <h3>Time</h3>
+      <div id=txt></div>
     </div>
+    
+    <div class="card grid">
+      <h3>Work</h3>
+      <ul>
+        <li><a target="_blank" href="https://dashboard.e-gineering.com">Dashboard</a></li>
+        <li><a target="_blank" href="http://www.e-gineering.com/">E-gineering</a></li>
+        <li><a target="_blank" href="http://www.e-gineering.com/wp-admin">EG Site Dashboard</a></li>
+        <li><a target="_blank" href="https://egwpstaging.wpengine.com/">EG Stage</a></li>
+        <li><a target="_blank" href="https://e-gineering.atlassian.net/servicedesk/customer/portals">JSM Portal</a></li>
+        <li><a target="_blank" href="https://e-gineering.atlassian.net/wiki/home">Confluence</a></li>
+        <li><a target="_blank" href="https://e-gineering.sharefile.com/dashboard">ShareFile</a></li>
+        <li><a target="_blank" href="https://wsiee.prismhr.com/wsi">Worksmart Portal</a></li>
+        <li><a target="_blank" href="https://u.eginc.io/">EG URL Shortener</a></li>
+      </ul>
+    </div>
+    
+    <div class="card grid">
+      <h3>Sys Admin</h3>
+      <ul>
+        <li><a target="_blank" href="https://e-gineering.atlassian.net/jira/servicedesk/projects/EGSD/">EG Service Desk</a></li>
+        <li><a target="_blank" href="https://e-gineering.atlassian.net/jira/software/c/projects/EGSYS/boards/215">EGSYS Board</a></li>
+        <li><a target="_blank" href="https://e-gineering.slack.com/admin">Slack Admin</a></li>
+        <li><a target="_blank" href="https://admin.atlassian.com">Atlassian Admin</a></li>
+        <li><a target="_blank" href="https://portal.azure.com/">Azure Portal</a></li>
+        <li><a target="_blank" href="https://admin.microsoft.com/AdminPortal/Home">Microsoft Office Portal</a></li>
+        <li><a target="_blank" href="https://admin.exchange.microsoft.com/#/">Exchange Admin Portal</a></li>
+        <li><a target="_blank" href="https://dooraccess.e-gineering.com:8080/#/login">Door Access</a></li>
+        <li><a target="_blank" href="https://www.ng1.angusanywhere.com/Tenant/JLL/JLL/Default.aspx">JLL Requests</a></li>
+        <li><a target="_blank" href="https://docs.google.com/spreadsheets/d/1_-g8cdtYRNBKODkopYrviepSSPuksaxMFamxk_QSzrs/edit#gid=0">E-gineer of the Day</a></li>
+        <li><a target="_blank" href="https://e-gineering.monday.com/my_work">Monday</a></li>
+      </ul>
+    </div>
+
+    <div class="card grid">
+      <h3>General</h3>
+      <ul>
+        <li><a target="_blank" href="https://myaccount.caliberhomeloans.com/dashboard">Caliber Home Loans</a></li>
+        <li><a target="_blank" href="https://reddit.com">Reddit</a></li>
+        <li><a target="_blank" href="https://github.com">GitHub</a></li>
+        <li><a target="_blank" href="https://gmail.com">Gmail</a></li>
+        <li><a target="_blank" href="https://outlook.office.com">Outlook</a></li>
+        <li><a target="_blank" href="https://www.chase.com">Chase</a></li>
+        <li><a target="_blank" href="https://www.youtube.com">YouTube</a></li>
+        <li><a target="_blank" href="https://smile.amazon.com">Amazon</a></li>
+        
+      </ul>
+    </div>
+
+    <div class="card grid">
+      <h3>Design</h3>
+      <ul>
+        <li><a target="_blank" href="https://www.behance.net/search">Behance</a></li>
+        <li><a target="_blank" href="http://thinkingwithtype.com">Thinking With Type</a></li>
+        <li><a target="_blank" href="https://coolors.co/app/">Coolors</a></li>
+        <li><a target="_blank" href="https://unsplash.com/">Unsplash</a></li>
+        <li><a target="_blank" href="http://type-scale.com/">TypeScale</a></li>
+        <li><a target="_blank" href="https://material.io/">Material Design</a></li>
+        <li><a target="_blank" href="https://autoprefixer.github.io">Auto Pre-Fixer</a></li>
+        <li><a target="_blank" href="https://www.youtube.com/channel/UC7TizprGknbDalbHplROtag">Layout Land CSS</a></li>
+      </ul>
+    </div>
+    
+    <!--<div class="card grid">
+      <h3>Weather</h3>
+    <a class="weatherwidget-io" href="https://forecast7.com/en/39d79n85d77/greenfield/?unit=us" data-label_1="GREENFIELD" data-label_2="WEATHER" data-shadow="#535353" data-textcolor="#ffffff" data-highcolor="#ffc369" data-lowcolor="#54b5dc" data-suncolor="#e5b058" data-mooncolor="#bce0de" data-cloudcolor="#b8c3bf" data-cloudfill="#bac2c2" data-raincolor="#85d6e1" data-snowcolor="#ececec" >GREENFIELD WEATHER</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
+    </div>
+    -->
+
+<div class="card grid">
+  <h3>Weather</h3>
+  <p id="temperature"></p>
+  <p id="conditions"></p>
+</div>
+
   </div>
+
+  <script src="weather.js"></script>
+
 </body>
+
 </html>
