@@ -4,17 +4,6 @@ const city = 'Greenfield,IN';
 const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
 const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
 
-async function getWeather() {
-  try {
-    const response = await fetch(url);
-    if (!response.ok) throw new Error('Network response was not ok ' + response.statusText);
-    const weatherData = await response.json();
-    displayWeather(weatherData);
-  } catch (error) {
-    console.error('There has been a problem with your fetch operation:', error);
-  }
-}
-
 function displayWeather(data) {
   const temp = data.main.temp;
   const conditions = data.weather[0].description;
