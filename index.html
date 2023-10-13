@@ -36,11 +36,11 @@
 
 </head>
 
-<header>
-</header>
-
 <body class="background-image" onload="startTime()">
 
+  <header>
+  </header>
+  
   <div class="card-container">
 
     <div class="card grid">
@@ -109,15 +109,24 @@
       </ul>
     </div>
     
-    <div class="card grid">
+    <!--<div class="card grid">
       <h3>Weather</h3>
     <a class="weatherwidget-io" href="https://forecast7.com/en/39d79n85d77/greenfield/?unit=us" data-label_1="GREENFIELD" data-label_2="WEATHER" data-shadow="#535353" data-textcolor="#ffffff" data-highcolor="#ffc369" data-lowcolor="#54b5dc" data-suncolor="#e5b058" data-mooncolor="#bce0de" data-cloudcolor="#b8c3bf" data-cloudfill="#bac2c2" data-raincolor="#85d6e1" data-snowcolor="#ececec" >GREENFIELD WEATHER</a>
 <script>
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
 </script>
     </div>
+    -->
+
+    <div class="card grid">
+  <h3>Weather</h3>
+  <p id="temperature"></p>
+  <p id="conditions"></p>
+</div>
 
   </div>
+
+  <script src="weather.js"></script>
 
 </body>
 
