@@ -112,10 +112,10 @@ nav ul {
   display: inline;
 }
 
-ul li:before {
+/*ul li:before {
     content: "• ";
 }
-
+*/
 
 /* CARD STYLES
 ---------------------------*/
