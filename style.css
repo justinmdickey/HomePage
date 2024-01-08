@@ -139,7 +139,7 @@ nav ul {
   padding: 30px;
   height: 85%;
   background: #111111;
-  border: 1px solid #1DB954;
+  border: 2px solid #1DB954;
 /*  backdrop-filter: blur(3px);*/
   box-shadow: 3px 3px 8px #000;
 }
