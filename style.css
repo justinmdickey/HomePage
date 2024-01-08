@@ -25,7 +25,7 @@ html {font-size: 1em;}
 body {
   background-color: white;
   margin: 0%;
-  font-family: 'San Francisco Display', Sans-Serif;
+  font-family: 'SF Mono', monospace;
   font-weight: 600;
   line-height: 1.2;
   color: #e3e3e3;
@@ -73,8 +73,8 @@ h1,h2,h3,h4,h5 {
 }
 
 body, p, a {
-  font-family: 'San Francisco Display', sans-serif;
-  font-weight: 500;
+  font-family: 'SF Mono', monospace;
+  font-weight: 600;
   line-height: 1.7;
 }
 
@@ -138,9 +138,9 @@ nav ul {
 .card {
   padding: 30px;
   height: 85%;
-  background: rgba(0,0,0,0.6);
-  border-radius: 12px;
-  backdrop-filter: blur(3px);
+  background: #111111;
+  border: 1px solid #1DB954;
+/*  backdrop-filter: blur(3px);*/
   box-shadow: 3px 3px 8px #000;
 }
 
