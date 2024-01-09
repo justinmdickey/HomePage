@@ -68,7 +68,7 @@ small, .font_small {font-size: 0.8em;}
 h1,h2,h3,h4,h5 {
   color: #fefefe;
   text-shadow: 3px 1px 5px#333;
-  font-family: 'San Francisco Display', sans-serif;
+  font-family: 'PT Sans', sans-serif;
   word-wrap: break-word;
 }
 
@@ -80,9 +80,9 @@ body, p, a {
 
 h1.title, #txt {
   font-weight: 900;
-  font-family: 'San Francisco Display', sans-serif;
+  font-family: 'PT Sans', sans-serif;
   text-align: center;
-  font-size: 7.5em;
+  font-size: 8em;
   line-height: 0.75;
   padding: 50px 0px;
 }
@@ -150,7 +150,7 @@ nav ul {
   color: #1DB954;
   text-align: center;
   font-weight: 900;
-  font-family: 'San Francisco Display', sans-serif;
+  font-family: 'PT Sans', sans-serif;
 }
 
 .bible-verse, .bible-verse script {
