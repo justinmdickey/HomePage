@@ -138,7 +138,8 @@ nav ul {
 .card {
   padding: 30px;
   height: 85%;
-  background: rgba(17,17,17,0.9);
+  border-radius: 10px;
+  background: rgba(17,17,17,1);
   border: 2px solid #1DB954;
   backdrop-filter: blur(3px);
   box-shadow: 3px 3px 8px #000;
@@ -146,6 +147,7 @@ nav ul {
 
 .card h3 {
   margin-top: 1%;
+  color: #1DB954;
   text-align: center;
   font-weight: 900;
   font-family: 'San Francisco Display', sans-serif;
