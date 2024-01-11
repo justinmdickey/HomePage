@@ -105,7 +105,7 @@ a {
 
 a:hover {
   text-shadow: 3px 3px 3px #333;
-  color: #1DB954
+  color: #78dba9
 }
 
 nav ul {
@@ -140,14 +140,14 @@ nav ul {
   height: 85%;
   border-radius: 10px;
   background: rgba(17,17,17,1);
-  border: 2px solid #1DB954;
+  border: 2px solid #78dba9;
   backdrop-filter: blur(3px);
   box-shadow: 3px 3px 8px #000;
 }
 
 .card h3 {
   margin-top: 1%;
-  color: #1DB954;
+  color: #78dba9;
   text-align: center;
   font-weight: 900;
   font-family: 'PT Sans', sans-serif;
