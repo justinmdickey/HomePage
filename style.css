@@ -58,11 +58,12 @@ small, .font_small {font-size: 0.8em;}
 ---------------------------*/
 
 .background-image {
-   background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)), url('images/pixel.png');
+/*   background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)), url('images/pixel.png');
    background-size: cover;
    background-attachment: fixed;
    background-position: center;
-   height: 100vh;
+   height: 100vh; */
+   background-color: #020203;
 }
 
 h1,h2,h3,h4,h5 {
