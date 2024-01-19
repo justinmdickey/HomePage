@@ -97,7 +97,7 @@ h3 {
   text-shadow: 3px 1px 5px #333;
 }
 
-a {
+a, p {
   color: #e3e3e3;
   font-size: 1.2em;
   text-decoration: none;
