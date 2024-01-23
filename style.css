@@ -81,9 +81,9 @@ body, p, a {
 h1.title, #txt {
   font-weight: 900;
   font-family: 'PT Sans', sans-serif;
-  text-align: center;
+  text-align: left;
   font-size: 8em;
-  line-height: 0.75;
+  line-height: 1;
   padding: 50px 0px;
 }
 
