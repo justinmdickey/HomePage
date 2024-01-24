@@ -58,7 +58,8 @@ small, .font_small {font-size: 0.8em;}
 ---------------------------*/
 
 .background-image {
-   background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)), url('images/pixel.png');
+/*   background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)), url('images/pixel.png');*/
+   background-color: #090d10;
    background-size: cover;
    background-attachment: fixed;
    background-position: center;
