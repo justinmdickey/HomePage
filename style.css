@@ -69,21 +69,21 @@ small, .font_small {font-size: 0.8em;}
 h1,h2,h3,h4,h5 {
   color: #fefefe;
   text-shadow: 3px 1px 5px#333;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Jetbrains Mono', sans-serif;
   word-wrap: break-word;
 }
 
 body, p, a {
-  font-family: 'SF Mono', monospace;
+  font-family: 'Jetbrains Mono', monospace;
   font-weight: 600;
   line-height: 1.7;
 }
 
 h1.title, #txt {
   font-weight: 900;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Jetbrains Mono', sans-serif;
   text-align: left;
-  font-size: 8em;
+  font-size: 9em;
   line-height: 1;
   padding: 50px 0px;
 }
