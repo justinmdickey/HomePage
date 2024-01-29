@@ -137,7 +137,7 @@ nav ul {
   padding: 30px;
   height: 85%;
   border-radius: 10px;
-  background: #101419;
+  background: #090d10;
   border: 2px solid #98c379;
   backdrop-filter: blur(3px);
   box-shadow: 3px 3px 8px #000;
@@ -145,21 +145,12 @@ nav ul {
 
 .card h3 {
   margin-top: 1%;
-  color: #98c379;
+  color: #e5c07b;
   text-align: center;
   font-weight: 900;
   font-family: 'PT Sans', sans-serif;
 }
 
-.bible-verse, .bible-verse script {
-  color: lightblue;
-  font-family: Hasklig;
-}
-
-@import url(https://fonts.googleapis.com/css?family=Oswald:300,400);
-body {
-  background-color: #222;
-}
 #currentTime {
   font-size: 10em;
   text-align: center;
