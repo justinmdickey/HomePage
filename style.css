@@ -82,7 +82,7 @@ h1.title, #txt {
   font-weight: 900;
   font-family: 'Jetbrains Mono', sans-serif;
   text-align: left;
-  font-size: 9em;
+  font-size: 8em;
   line-height: 1;
   padding: 50px 0px;
 }
@@ -152,9 +152,8 @@ nav ul {
 }
 
 #currentTime {
-  font-size: 10em;
+  font-size: 9em;
   text-align: center;
-  font-family: 'Oswald';
   font-weight: 300;
   color: #f05b19;
   margin: 100px auto;
