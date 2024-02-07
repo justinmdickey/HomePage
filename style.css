@@ -28,7 +28,7 @@ body {
   font-family: 'Jetbrains Mono', monospace;
   font-weight: 600;
   line-height: 1.2;
-  color: #e3e3e3;
+  color: #abb2bf;
   height: auto;
 }
 
@@ -67,7 +67,7 @@ small, .font_small {font-size: 0.8em;}
 }
 
 h1,h2,h3,h4,h5 {
-  color: #fefefe;
+  color: #abb2bf;
   font-family: 'Jetbrains Mono', sans-serif;
   word-wrap: break-word;
 }
@@ -93,11 +93,11 @@ h1.ending {
 
 h3 {
   font-weight: 900;
-  color: #fefefe;
+  color: #abb2bf;
 }
 
 a, p {
-  color: #e3e3e3;
+  color: #abb2bf;
   font-size: 1em;
   text-decoration: none;
 }
