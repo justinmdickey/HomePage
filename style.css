@@ -28,7 +28,7 @@ body {
   font-family: 'Jetbrains Mono', monospace;
   font-weight: 600;
   line-height: 1.2;
-  color: #abb2bf;
+  color: #c0caf5;
   height: auto;
 }
 
@@ -59,7 +59,7 @@ small, .font_small {font-size: 0.8em;}
 
 .background-image {
 /*   background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)), url('images/pixel.png');*/
-   background-color: #090d10;
+   background-color: #1a1b26;
    background-size: cover;
    background-attachment: fixed;
    background-position: center;
@@ -67,7 +67,7 @@ small, .font_small {font-size: 0.8em;}
 }
 
 h1,h2,h3,h4,h5 {
-  color: #abb2bf;
+  color: #c0caf5;
   font-family: 'Jetbrains Mono', sans-serif;
   word-wrap: break-word;
 }
@@ -93,17 +93,17 @@ h1.ending {
 
 h3 {
   font-weight: 900;
-  color: #abb2bf;
+  color: #c0caf5;
 }
 
 a, p {
-  color: #abb2bf;
+  color: #c0caf5;
   font-size: 1em;
   text-decoration: none;
 }
 
 a:hover {
-  color: #98c379;
+  color: #9ece6a;
 }
 
 nav ul {
@@ -138,14 +138,14 @@ nav ul {
   height: 85%;
   border-radius: 10px;
   background: #090d10;
-  border: 2px solid #98c379;
+  border: 2px solid #9ece6a;
   backdrop-filter: blur(3px);
   box-shadow: 3px 3px 8px #000;
 }
 
 .card h3 {
   margin-top: 1%;
-  color: #e5c07b;
+  color: #e0af68;
   text-align: center;
   font-weight: 900;
   font-family: 'Jetbrains Mono', sans-serif;
