@@ -28,7 +28,7 @@ body {
   font-family: 'Jetbrains Mono', monospace;
   font-weight: 600;
   line-height: 1.2;
-  color: #c5c8c6;
+  color: #b6beca;
   height: auto;
 }
 
@@ -59,7 +59,7 @@ small, .font_small {font-size: 0.8em;}
 
 .background-image {
 /*   background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)), url('images/pixel.png');*/
-   background-color: #111111;
+   background-color: #101419;
    background-size: cover;
    background-attachment: fixed;
    background-position: center;
@@ -67,7 +67,7 @@ small, .font_small {font-size: 0.8em;}
 }
 
 h1,h2,h3,h4,h5 {
-  color: #c5c8c6;
+  color: #b6beca;
   font-family: 'Jetbrains Mono', sans-serif;
   word-wrap: break-word;
 }
@@ -93,17 +93,17 @@ h1.ending {
 
 h3 {
   font-weight: 900;
-  color: #c5c8c6;
+  color: #b6beca;
 }
 
 a, p {
-  color: #c5c8c6;
+  color: #b6beca;
   font-size: 1.2em;
   text-decoration: none;
 }
 
 a:hover {
-  color: #b5bd68;
+  color: #78dba9;
 }
 
 nav ul {
@@ -137,15 +137,15 @@ nav ul {
   padding: 30px;
   height: 85%;
   border-radius: 10px;
-  background: #111111;
-  border: 2px solid #b5bd68;
+  background: #101419;
+  border: 2px solid #78dba9;
   backdrop-filter: blur(3px);
   box-shadow: 3px 3px 8px #000;
 }
 
 .card h3 {
   margin-top: 1%;
-  color: #b5bd68;
+  color: #78dba9;
   text-align: center;
   font-weight: 900;
   font-family: 'Jetbrains Mono', sans-serif;
@@ -155,7 +155,7 @@ nav ul {
   font-size: 9em;
   text-align: center;
   font-weight: 300;
-  color: #b5bd68;
+  color: #78dba9;
   margin: 100px auto;
 }
 
