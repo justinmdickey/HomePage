@@ -14,31 +14,30 @@
   <link rel="icon" href="faves/arch.svg" type="image/svg+xml">
   <link rel="script" type="script" href="scripts.js">
   <link rel="stylesheet" type="text/css" href="column-classes.css">
-  <link rel="stylesheet" type="text/css" href="style.css">  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 
 
   <script>
-  function startTime() {
-    var today = new Date();
-    var h = today.getHours();
-    var m = today.getMinutes();
-    var s = today.getSeconds();
-    var ampm = h >= 12 ? 'PM' : 'AM';
-    h = h % 12;
-    h = h ? h : 12; // the hour '0' should be '12'
-    m = checkTime(m);
-    s = checkTime(s);
-    document.getElementById('txt').innerHTML =
-      h + ":" + m + " " + ampm;
-    var t = setTimeout(startTime, 500);
-  }
-  function checkTime(i) {
-    if (i < 10) { i = "0" + i };  // add zero in front of numbers < 10
-    return i;
-  }
-</script>
-
-
+    function startTime() {
+      var today = new Date();
+      var h = today.getHours();
+      var m = today.getMinutes();
+      var s = today.getSeconds();
+      var ampm = h >= 12 ? 'PM' : 'AM';
+      h = h % 12;
+      h = h ? h : 12; // the hour '0' should be '12'
+      m = checkTime(m);
+      s = checkTime(s);
+      document.getElementById('txt').innerHTML =
+        h + ":" + m + " " + ampm;
+      var t = setTimeout(startTime, 500);
+    }
+    function checkTime(i) {
+      if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+      return i;
+    }
+  </script>
 
 </head>
 
@@ -46,14 +45,14 @@
 
   <header>
   </header>
-  
+
   <div class="card-container">
 
     <div class="card grid">
       <h3>Time</h3>
       <div id=txt></div>
     </div>
-    
+
     <div class="card grid">
       <h3>Home Server</h3>
       <ul>
@@ -69,7 +68,7 @@
       </ul>
       </ul>
     </div>
-    
+
     <div class="card grid">
       <h3>Work</h3>
       <ul>
@@ -87,20 +86,25 @@
         <li><a target="_blank" href="https://chat.openai.com/">Chat GPT</a></li>
       </ul>
     </div>
-    
+
     <div class="card grid">
       <h3>Sys Admin</h3>
       <ul>
-        <li><a target="_blank" href="https://e-gineering.atlassian.net/jira/servicedesk/projects/EGSD/">EG Service Desk</a></li>
-        <li><a target="_blank" href="https://e-gineering.atlassian.net/jira/software/c/projects/EGSYS/boards/229">EGSYS Board</a></li>
+        <li><a target="_blank" href="https://e-gineering.atlassian.net/jira/servicedesk/projects/EGSD/">EG Service
+            Desk</a></li>
+        <li><a target="_blank" href="https://e-gineering.atlassian.net/jira/software/c/projects/EGSYS/boards/229">EGSYS
+            Board</a></li>
         <li><a target="_blank" href="https://e-gineering.slack.com/admin">Slack Admin</a></li>
         <li><a target="_blank" href="https://admin.atlassian.com">Atlassian Admin</a></li>
         <li><a target="_blank" href="https://portal.azure.com/">Azure Portal</a></li>
         <li><a target="_blank" href="https://admin.microsoft.com/AdminPortal/Home">Microsoft Office Portal</a></li>
         <li><a target="_blank" href="https://admin.exchange.microsoft.com/#/">Exchange Admin Portal</a></li>
         <li><a target="_blank" href="https://keep.feenicshosting.com/dashboard">Feenics</a></li>
-        <li><a target="_blank" href="https://www.ng1.angusanywhere.com/Tenant/JLL/JLL/Default.aspx">JLL Requests</a></li>
-        <li><a target="_blank" href="https://docs.google.com/spreadsheets/d/1_-g8cdtYRNBKODkopYrviepSSPuksaxMFamxk_QSzrs/edit#gid=0">E-gineer of the Day</a></li>
+        <li><a target="_blank" href="https://www.ng1.angusanywhere.com/Tenant/JLL/JLL/Default.aspx">JLL Requests</a>
+        </li>
+        <li><a target="_blank"
+            href="https://docs.google.com/spreadsheets/d/1_-g8cdtYRNBKODkopYrviepSSPuksaxMFamxk_QSzrs/edit#gid=0">E-gineer
+            of the Day</a></li>
         <li><a target="_blank" href="https://e-gineering.monday.com/my_work">Monday</a></li>
       </ul>
     </div>
@@ -116,15 +120,15 @@
         <li><a target="_blank" href="https://www.youtube.com">YouTube</a></li>
         <li><a target="_blank" href="https://smile.amazon.com">Amazon</a></li>
         <li><a target="_blank" href="https://www.mistobox.com/dashboard/">Coffee</a></li>
-        <li><a target="_blank" href="https://myaccount.caliberhomeloans.com/dashboard">Caliber Home Loans</a></li>        
+        <li><a target="_blank" href="https://myaccount.caliberhomeloans.com/dashboard">Caliber Home Loans</a></li>
       </ul>
     </div>
 
-<div class="card grid">
-  <h3>Weather</h3>
-  <p id="temperature"></p>
-  <p id="conditions"></p>
-</div>
+    <div class="card grid">
+      <h3>Weather</h3>
+      <p id="temperature"></p>
+      <p id="conditions"></p>
+    </div>
 
   </div>
 
