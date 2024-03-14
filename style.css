@@ -103,7 +103,7 @@ a, p {
 }
 
 a:hover {
-  color: #a6e3a1;
+  color: #89bf4a;
 }
 
 nav ul {
@@ -138,14 +138,14 @@ nav ul {
   height: 85%;
   border-radius: 10px;
   background: #1e1e2e;
-  border: 2px solid #a6e3a1;
+  border: 2px solid #89b4fa;
   backdrop-filter: blur(3px);
   box-shadow: 3px 3px 8px #000;
 }
 
 .card h3 {
   margin-top: 1%;
-  color: #a6e3a1;
+  color: #89bf4a;
   text-align: center;
   font-weight: 900;
   font-family: 'Jetbrains Mono', sans-serif;
@@ -155,7 +155,7 @@ nav ul {
   font-size: 9em;
   text-align: center;
   font-weight: 300;
-  color: #a6e3a1;
+  color: #89bf4a;
   margin: 100px auto;
 }
 
