@@ -103,7 +103,7 @@ a, p {
 }
 
 a:hover {
-  color: #89bf4a;
+  color: #89b4fa;
 }
 
 nav ul {
@@ -145,7 +145,7 @@ nav ul {
 
 .card h3 {
   margin-top: 1%;
-  color: #89bf4a;
+  color: #89b4fa;
   text-align: center;
   font-weight: 900;
   font-family: 'Jetbrains Mono', sans-serif;
@@ -155,7 +155,7 @@ nav ul {
   font-size: 9em;
   text-align: center;
   font-weight: 300;
-  color: #89bf4a;
+  color: #89b4fa;
   margin: 100px auto;
 }
 
