@@ -42,14 +42,14 @@ h1, h2, h3, h4 {
 
 h1 {
   margin: 2%;
-  font-size: 2.441em;
+  font-size: 2em;
 }
 
-h2 {font-size: 1.953em;}
+h2 {font-size: 1.5em;}
 
-h3 {font-size: 1.5em;}
+h3 {font-size: 1.3em;}
 
-h4 {font-size: 1.25em;}
+h4 {font-size: 1.1em;}
 
 small, .font_small {font-size: 0.8em;}
 
@@ -59,7 +59,7 @@ small, .font_small {font-size: 0.8em;}
 
 .background-image {
 /*   background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)), url('images/pixel.png');*/
-   background-color: #111111;
+   background-color: #0A0A0A;
    background-size: cover;
    background-attachment: fixed;
    background-position: center;
@@ -81,8 +81,8 @@ body, p, a {
 h1.title, #txt {
   font-weight: 900;
   font-family: 'Jetbrains Mono', sans-serif;
-  text-align: left;
-  font-size: 8em;
+  text-align: center;
+  font-size: 6em;
   line-height: 1;
   padding: 50px 0px;
 }
@@ -98,7 +98,7 @@ h3 {
 
 a, p {
   color: #abb2bf;
-  font-size: 1.2em;
+  font-size: 1em;
   text-decoration: none;
 }
 
@@ -137,8 +137,8 @@ nav ul {
   padding: 30px;
   height: 85%;
   border-radius: 10px;
-  background: #1e1e1e;
-  border: 2px solid #98c379;
+  background: #111111;
+  border: 1px solid #545862;
   backdrop-filter: blur(3px);
   box-shadow: 3px 3px 8px #000;
 }
