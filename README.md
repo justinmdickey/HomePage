@@ -1,6 +1,6 @@
 # HomePage
 
-My Custom Home Page - update
+My Custom Home Page
 
 ![screenshot](images/screenshot.png)
 
