@@ -25,10 +25,10 @@ html {font-size: 1em;}
 body {
   background-color: white;
   margin: 0%;
-  font-family: 'Jetbrains Mono', monospace;
+  font-family: 'Martian Mono', monospace;
   font-weight: 600;
   line-height: 1.2;
-  color: #c5c8c6;
+  color: #c8ccd4;
   height: auto;
 }
 
@@ -59,7 +59,7 @@ small, .font_small {font-size: 0.8em;}
 
 .background-image {
 /*   background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)), url('images/pixel.png');*/
-   background-color: #0A0A0A;
+   background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7)), url('images/mountain_blur.jpeg');
    background-size: cover;
    background-attachment: fixed;
    background-position: center;
@@ -67,20 +67,20 @@ small, .font_small {font-size: 0.8em;}
 }
 
 h1,h2,h3,h4,h5 {
-  color: #c5c8c6;
-  font-family: 'Jetbrains Mono', sans-serif;
+  color: #c8ccd4;
+  font-family: 'Martian Mono', sans-serif;
   word-wrap: break-word;
 }
 
 body, p, a {
-  font-family: 'Jetbrains Mono', monospace;
+  font-family: 'Martian Mono', monospace;
   font-weight: 600;
   line-height: 1.7;
 }
 
 h1.title, #txt {
   font-weight: 900;
-  font-family: 'Jetbrains Mono', sans-serif;
+  font-family: 'Martian Mono', sans-serif;
   text-align: center;
   font-size: 6em;
   line-height: 1;
@@ -93,17 +93,17 @@ h1.ending {
 
 h3 {
   font-weight: 900;
-  color: #c5c8c6;
+  color: #c8ccd4;
 }
 
 a, p {
-  color: #c5c8c6;
+  color: #c8ccd4;
   font-size: 1em;
   text-decoration: none;
 }
 
 a:hover {
-  color: #b5bd68;
+  color: #98c379;
 }
 
 nav ul {
@@ -137,25 +137,25 @@ nav ul {
   padding: 30px;
   height: 85%;
   border-radius: 10px;
-  background: #111111;
-  border: 1px solid #545862;
+  background: rgba(12,12,12,0.8);
+  border: 2px solid #545862;
   backdrop-filter: blur(3px);
   box-shadow: 3px 3px 8px #000;
 }
 
 .card h3 {
   margin-top: 1%;
-  color: #b5bd68;
+  color: #98c379;
   text-align: center;
   font-weight: 900;
-  font-family: 'Jetbrains Mono', sans-serif;
+  font-family: 'Martian Mono', sans-serif;
 }
 
 #currentTime {
   font-size: 9em;
   text-align: center;
   font-weight: 300;
-  color: #b5bd68;
+  color: #98c379;
   margin: 100px auto;
 }
 
