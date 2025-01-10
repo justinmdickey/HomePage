@@ -11,8 +11,8 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 :root {
   --primary: #9ece6a;
   --secondary: #7aa2f7;
-  --background: #1a1b26;
-  --background-dark: #11111b;
+  --background: #15161e;
+  --background-dark: #040f17;
   --foreground: #c0caf5;
 }
 
@@ -35,7 +35,7 @@ html {font-size: 1em;}
 body {
   background-color: white;
   margin: 0%;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Maple Mono', monospace;
   font-weight: 600;
   line-height: 1.2;
   color: var(--foreground);
@@ -79,19 +79,19 @@ small, .font_small {font-size: 0.8em;}
 
 h1,h2,h3,h4,h5 {
   color: var(--foreground);
-  font-family: 'JetBrains Mono', sans-serif;
+  font-family: 'Maple Mono', sans-serif;
   word-wrap: break-word;
 }
 
 body, p, a {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'Maple Mono', monospace;
   font-weight: 600;
   line-height: 1.7;
 }
 
 h1.title, #txt {
   font-weight: 900;
-  font-family: 'JetBrains Mono', sans-serif;
+  font-family: 'Maple Mono', sans-serif;
   text-align: center;
   font-size: 6em;
   line-height: 1;
@@ -159,7 +159,7 @@ nav ul {
   color: var(--primary);
   text-align: center;
   font-weight: 900;
-  font-family: 'JetBrains Mono', sans-serif;
+  font-family: 'Maple Mono', sans-serif;
 }
 
 #currentTime {
