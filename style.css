@@ -9,11 +9,11 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 }
 
 :root {
-  --primary: #9ece6a;
-  --secondary: #7aa2f7;
-  --background: #15161e;
-  --background-dark: #040f17;
-  --foreground: #c0caf5;
+  --primary: #61afef;
+  --secondary: #98c379;
+  --background: #141b24;
+  --background-dark: #1a212e;
+  --foreground: #abb2bf;
 }
 
 body { line-height: 1; }
