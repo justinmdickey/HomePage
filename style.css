@@ -9,7 +9,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 }
 
 :root {
-  --primary: #61afef;
+  --primary: #41a7fc;
   --secondary: #98c379;
   --background: #141b24;
   --background-dark: #1a212e;
@@ -35,7 +35,7 @@ html {font-size: 1em;}
 body {
   background-color: white;
   margin: 0%;
-  font-family: 'Maple Mono', monospace;
+  font-family: 'JetBrains Mono', monospace;
   font-weight: 600;
   line-height: 1.2;
   color: var(--foreground);
@@ -79,12 +79,12 @@ small, .font_small {font-size: 0.8em;}
 
 h1,h2,h3,h4,h5 {
   color: var(--foreground);
-  font-family: 'Maple Mono', sans-serif;
+  font-family: 'JetBrains Mono', sans-serif;
   word-wrap: break-word;
 }
 
 body, p, a {
-  font-family: 'Maple Mono', monospace;
+  font-family: 'JetBrains Mono', monospace;
   font-weight: 600;
   line-height: 1.7;
 }
@@ -159,7 +159,7 @@ nav ul {
   color: var(--primary);
   text-align: center;
   font-weight: 900;
-  font-family: 'Maple Mono', sans-serif;
+  font-family: 'JetBrains Mono', sans-serif;
 }
 
 #currentTime {
