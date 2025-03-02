@@ -11,9 +11,9 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 :root {
   --primary: #41a7fc;
   --secondary: #98c379;
-  --background: #141b24;
-  --background-dark: #1a212e;
-  --foreground: #abb2bf;
+  --background: #191f2d;
+  --background-dark: #0c0e15;
+  --foreground: #6c7d9c;
 }
 
 body { line-height: 1; }
@@ -149,7 +149,7 @@ nav ul {
   height: 85%;
   border-radius: 10px;
   background: var(--background);
-  border: 2px solid var(--primary);
+  border: 2px solid var(--foreground);
 /*  backdrop-filter: blur(3px);*/
   box-shadow: 3px 3px 8px #000;
 }
