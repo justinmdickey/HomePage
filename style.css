@@ -10,10 +10,10 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 
 :root {
   --primary: #41a7fc;
-  --secondary: #98c379;
-  --background: #d3d3d3;
-  --background-dark: #e5e6e7;
-  --foreground: #191f2d;
+  --secondary: #8bcd5b;
+  --background: #191f2d;
+  --background-dark: #0c0e15;
+  --foreground: #788eb3;
 }
 
 body { line-height: 1; }
@@ -93,7 +93,6 @@ h1.title, #txt {
   font-weight: 900;
   font-family: 'SF Pro Display', sans-serif;
   text-align: center;
-  color: var(--primary);
   font-size: 6em;
   line-height: 1;
   padding: 50px 0px;
@@ -152,7 +151,7 @@ nav ul {
   background: var(--background);
   border: 2px solid var(--foreground);
 /*  backdrop-filter: blur(3px);*/
-  box-shadow: 3px 3px 8px #c3c3c3;
+  box-shadow: 3px 3px 8px #000;
 }
 
 .card h3 {
