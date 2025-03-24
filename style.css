@@ -1,50 +1,145 @@
 /* reset styles */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var, b, u, i, center,
-dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
-    margin: 0; padding: 0;  border: 0; outline: 0; font-size: 100%;
-    vertical-align: baseline; background: transparent;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
 
 :root {
-  --primary: #41a7fc;
-  --secondary: #8bcd5b;
-  --background: #191f2d;
-  --background-dark: #0c0e15;
-  --foreground: #788eb3;
+  --primary: #57a5e5;
+  --secondary: #8fb573;
+  --background: #28282c;
+  --background-dark: #1d1d20;
+  --foreground: #a7aab0;
+
+  /* Custom bookmark colors - can be overridden by user */
+  --card-title-color: var(--primary);
+  --card-border-color: var(--foreground);
+  --card-background: var(--background);
+  --link-hover-color: var(--primary);
 }
 
-body { line-height: 1; }
-ol, ul { list-style: none; }
-blockquote, q { quotes: none; }
-blockquote:before, blockquote:after, q:before, q:after { content: ''; }
-:focus { outline: 0; }
-ins { text-decoration: none; }
-del { text-decoration: line-through; }
-table { border-collapse: collapse; border-spacing: 0; }
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+}
+:focus {
+  outline: 0;
+}
+ins {
+  text-decoration: none;
+}
+del {
+  text-decoration: line-through;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
 
 /* TypeScale
 ---------------------------*/
 
-
-
-html {font-size: 1em;}
+html {
+  font-size: 1em;
+}
 
 body {
   background-color: white;
   margin: 0%;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: "JetBrains Mono", monospace;
   font-weight: 600;
   line-height: 1.2;
   color: var(--foreground);
   height: auto;
 }
 
-p {margin-bottom: 1.3em;}
+p {
+  margin-bottom: 1.3em;
+}
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   margin: 1.414em 0 0.5em;
   font-weight: 600;
   line-height: 1.2;
@@ -55,43 +150,58 @@ h1 {
   font-size: 2em;
 }
 
-h2 {font-size: 1.5em;}
+h2 {
+  font-size: 1.5em;
+}
 
-h3 {font-size: 1.3em;}
+h3 {
+  font-size: 1.3em;
+}
 
-h4 {font-size: 1.1em;}
+h4 {
+  font-size: 1.1em;
+}
 
-small, .font_small {font-size: 0.8em;}
-
+small,
+.font_small {
+  font-size: 0.8em;
+}
 
 /* Typography
 ---------------------------*/
 
 .background-image {
-/*  background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)), url('images/pixel.png');*/
-/*  background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7)), url('images/mountain_blur.jpeg'); */
-  background-color: var(--background-dark); 
+  /*  background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)), url('images/pixel.png');*/
+  /*  background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.7)), url('images/mountain_blur.jpeg'); */
+  background-color: var(--background-dark);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
   height: 100vh;
 }
 
-h1,h2,h3,h4,h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   color: var(--foreground);
-  font-family: 'JetBrains Mono', sans-serif;
+  font-family: "JetBrains Mono", sans-serif;
   word-wrap: break-word;
 }
 
-body, p, a {
-  font-family: 'JetBrains Mono', monospace;
+body,
+p,
+a {
+  font-family: "JetBrains Mono", monospace;
   font-weight: 600;
   line-height: 1.7;
 }
 
-h1.title, #txt {
+h1.title,
+#txt {
   font-weight: 900;
-  font-family: 'SF Pro Display', sans-serif;
+  font-family: "SF Pro Display", sans-serif;
   text-align: center;
   font-size: 6em;
   line-height: 1;
@@ -107,14 +217,172 @@ h3 {
   color: var(--foreground);
 }
 
-a, p {
+a,
+p {
   color: var(--foreground);
   font-size: 1em;
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--primary);
+  color: var(--link-hover-color);
+}
+
+/* Styles for editable bookmarks */
+.edit-mode .bookmark-item {
+  position: relative;
+  padding-right: 30px;
+}
+
+.edit-button {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  display: none;
+  color: var(--card-title-color);
+  background: none;
+  border: none;
+  font-size: 0.8em;
+}
+
+.edit-mode .bookmark-item .edit-button {
+  display: inline-block;
+}
+
+.bookmark-item:hover .edit-button {
+  display: inline-block;
+}
+
+.bookmark-editor {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.bookmark-editor input {
+  background: var(--background-dark);
+  color: var(--foreground);
+  border: 1px solid var(--card-border-color);
+  padding: 5px;
+  border-radius: 4px;
+  font-family: "JetBrains Mono", monospace;
+}
+
+.bookmark-editor-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.bookmark-editor-buttons button {
+  background: var(--card-background);
+  color: var(--foreground);
+  border: 1px solid var(--card-border-color);
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "JetBrains Mono", monospace;
+}
+
+.bookmark-editor-buttons button:hover {
+  color: var(--card-title-color);
+}
+
+/* Color picker styles */
+.color-picker {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: var(--card-background);
+  border: 2px solid var(--card-border-color);
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 3px 3px 8px #000;
+  z-index: 100;
+}
+
+.color-picker h4 {
+  color: var(--card-title-color);
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.color-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.color-option label {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.color-option input {
+  width: 50px;
+  height: 30px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.toggle-edit-mode {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background: var(--card-background);
+  color: var(--foreground);
+  border: 2px solid var(--card-border-color);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 3px 3px 8px #000;
+  z-index: 100;
+}
+
+.toggle-edit-mode:hover {
+  color: var(--card-title-color);
+}
+
+.toggle-colors {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: var(--card-background);
+  color: var(--foreground);
+  border: 2px solid var(--card-border-color);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 3px 3px 8px #000;
+  z-index: 101;
+}
+
+.add-bookmark-button {
+  background: var(--card-background);
+  color: var(--foreground);
+  border: 1px solid var(--card-border-color);
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "JetBrains Mono", monospace;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.add-bookmark-button:hover {
+  color: var(--card-title-color);
 }
 
 nav ul {
@@ -148,18 +416,18 @@ nav ul {
   padding: 30px;
   height: 85%;
   border-radius: 10px;
-  background: var(--background);
-  border: 2px solid var(--foreground);
-/*  backdrop-filter: blur(3px);*/
+  background: var(--card-background);
+  border: 2px solid var(--card-border-color);
+  /*  backdrop-filter: blur(3px);*/
   box-shadow: 3px 3px 8px #000;
 }
 
 .card h3 {
   margin-top: 1%;
-  color: var(--primary);
+  color: var(--card-title-color);
   text-align: center;
   font-weight: 900;
-  font-family: 'JetBrains Mono', sans-serif;
+  font-family: "JetBrains Mono", sans-serif;
 }
 
 #currentTime {
@@ -171,7 +439,7 @@ nav ul {
 }
 
 footer {
-    margin: 1%;
+  margin: 1%;
 }
 
 /* CARD STYLES
