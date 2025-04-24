@@ -71,11 +71,11 @@ td {
 }
 
 :root {
-  --primary: #57a5e5;
-  --secondary: #8fb573;
-  --background: #28282c;
-  --background-dark: #1d1d20;
-  --foreground: #a7aab0;
+  --primary: #41a7fc;
+  --secondary: #8bcd5b;
+  --background: #1c2029;
+  --background-dark: #171922;
+  --foreground: #becfea;
 
   /* Custom bookmark colors - can be overridden by user */
   --card-title-color: var(--primary);
