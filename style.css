@@ -125,7 +125,7 @@ html {
 body {
   background-color: white;
   margin: 0%;
-  font-family: "Maple Mono", monospace;
+  font-family: "Adwaita Sans", monospace;
   font-weight: 600;
   line-height: 1.2;
   color: var(--foreground);
@@ -186,14 +186,14 @@ h3,
 h4,
 h5 {
   color: var(--foreground);
-  font-family: "Maple Mono", sans-serif;
+  font-family: "Adwaita Sans", sans-serif;
   word-wrap: break-word;
 }
 
 body,
 p,
 a {
-  font-family: "Maple Mono", monospace;
+  font-family: "Adwaita Sans", monospace;
   font-weight: 600;
   line-height: 1.7;
 }
@@ -269,7 +269,7 @@ a:hover {
   border: 1px solid var(--card-border-color);
   padding: 5px;
   border-radius: 4px;
-  font-family: "Maple Mono", monospace;
+  font-family: "Adwaita Sans", monospace;
 }
 
 .bookmark-editor-buttons {
@@ -284,7 +284,7 @@ a:hover {
   padding: 5px 10px;
   border-radius: 4px;
   cursor: pointer;
-  font-family: "Maple Mono", monospace;
+  font-family: "Adwaita Sans", monospace;
 }
 
 .bookmark-editor-buttons button:hover {
@@ -376,7 +376,7 @@ a:hover {
   padding: 5px 10px;
   border-radius: 4px;
   cursor: pointer;
-  font-family: "Maple Mono", monospace;
+  font-family: "Adwaita Sans", monospace;
   margin-top: 15px;
   width: 100%;
 }
@@ -427,7 +427,7 @@ nav ul {
   color: var(--card-title-color);
   text-align: center;
   font-weight: 900;
-  font-family: "Maple Mono", sans-serif;
+  font-family: "Adwaita Sans", sans-serif;
 }
 
 #currentTime {
